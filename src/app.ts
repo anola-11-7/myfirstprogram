@@ -53,3 +53,4 @@ function print_all_primes(g1: number, g2: number): void {
 }
 
 print_all_primes(0, 10);
+// neuer Kommetar
