@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    input {
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+        padding: 8px;
+        width: 200px;
+    }
+
+    input[type="checkbox"]+label {
+        width: 180px;
+        padding-right: 12px;
+        margin: 10px 0;
+        display: inline-block;
+        cursor: pointer;
+        text-align: left;
+    }
+
+    input[type="button"] {
+        width: 220px;
+        margin-top: 10px;
+        display: inline-block;
+        border: 1px solid #11496e;
+        background-color: #6aa5f3;
+        color: #ffffff;
+        padding: 8px 16px;
+        transition: background-color .5s, color .5s;
+    }
+
+    input[type="button"]:hover {
+        background-color: transparent;
+        color: hsl(0, 76%, 38%);
+        cursor: pointer;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator</title>
+    <script src='crator.js'></script>
+</head>
+
+<body>
+    <h1 style="color: rgb(2, 2, 2);"> Passwort-Generator</h1>
+    <div id="password_generator">
+
+        <div>
+            <input type="button" id="generate_pw" name="generate_pw" value="Passwort generieren" />
+        </div>
+
+    </div>
+</body>
+
+</html>

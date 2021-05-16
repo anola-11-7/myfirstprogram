@@ -41,3 +41,5 @@ function print_all_primes(g1, g2) {
     }
 }
 print_all_primes(0, 10);
+// neuer Kommetar
+// Hallo
