@@ -1,3 +1,4 @@
+export{}; 
 let generate_pw = document.getElementById("generate_pw") as HTMLInputElement;
 console.log(generate_pw.value);
 

@@ -1,3 +1,4 @@
+export{}; 
 console.log('Hello World');
 
 let p = document.getElementById("paragraph")!;

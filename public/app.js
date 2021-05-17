@@ -1,4 +1,3 @@
-"use strict";
 console.log('Hello World');
 let p = document.getElementById("paragraph");
 p.innerText = "Hello world";
@@ -41,5 +40,6 @@ function print_all_primes(g1, g2) {
     }
 }
 print_all_primes(0, 10);
+export {};
 // neuer Kommetar
 // Hallo
